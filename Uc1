@@ -20,3 +20,91 @@ public static void main(String[] args) {
 }
 }
 
+_____________________________________________________________________________
+
+
+package xyzProblems;
+
+import java.util.Scanner;
+
+public class Uc2 {
+
+
+public static void main(String[] args) {
+   //var
+   int  x1, x2, y1, y2;
+   double F;
+   Scanner sc = new Scanner(System.in);
+
+   System.out.println("enter values");
+   x1 = sc.nextInt();
+   x2 = sc.nextInt();
+   y1 = sc.nextInt();
+   y2 = sc.nextInt();
+
+   F = Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
+
+   int a1, a2, b1, b2;
+   double c;
+
+
+   System.out.println("enter values");
+   a1 = sc.nextInt();
+   a2 = sc.nextInt();
+   b1 = sc.nextInt();
+   b2 = sc.nextInt();
+
+   c = Math.sqrt((a2-a1)*(a2-a1) + (b2-b1)*(b2-b1));
+
+   if (F == c) {
+      System.out.println("its equal");
+   }
+   else {
+      System.out.println("not equal");
+   }
+}
+}
+_____________________________________________________________________________
+
+package xyzProblems;
+
+import java.util.Scanner;
+
+public class Uc3 {
+
+
+public static void main(String[] args) {
+   //var
+   int  x1, x2, y1, y2;
+   double F;
+   Scanner sc = new Scanner(System.in);
+
+   System.out.println("enter values");
+   x1 = sc.nextInt();
+   x2 = sc.nextInt();
+   y1 = sc.nextInt();
+   y2 = sc.nextInt();
+
+   F = Math.sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1));
+
+   int a1, a2, b1, b2;
+   double c;
+
+
+   System.out.println("enter values");
+   a1 = sc.nextInt();
+   a2 = sc.nextInt();
+   b1 = sc.nextInt();
+   b2 = sc.nextInt();
+
+   c = Math.sqrt((a2-a1)*(a2-a1) + (b2-b1)*(b2-b1));
+
+   if (F == c) {
+      System.out.println("its equal");
+   }
+   else {
+      System.out.println("not equal");
+   }
+}
+
+
